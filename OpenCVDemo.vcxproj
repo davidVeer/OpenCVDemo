@@ -149,6 +149,9 @@
   <ItemGroup>
     <ClInclude Include="Assignments\Headers\HelloWorldAssignmentFunctions.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Media Include="Videos\TestVideo.mp4" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
