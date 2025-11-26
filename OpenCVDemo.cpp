@@ -9,11 +9,19 @@
 
 #include <opencv2/opencv.hpp>
 #include <iostream>
+#include <stdio.h>
+#include <string>
+
+void showImage(std::string path);
 
 int main()
 {
-
-    auto img = cv::imread("test.png");
-    cv::imshow("My Image", img);
-    cv::waitKey();
+	showImage("Images/test.png");
 }
+
+void showImage(std::string path) {
+	cv::Mat image = cv::imread(path);
+	cv::imshow("Test Image", image);
+	cv::waitKey(0);
+}
+

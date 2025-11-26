@@ -140,9 +140,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="OpenCV.props" />
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="test.png" />
+    <Image Include="Images\test.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
