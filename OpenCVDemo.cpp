@@ -10,6 +10,5 @@
 
 int main()
 {
-	showWebCam(0);
 }
 
