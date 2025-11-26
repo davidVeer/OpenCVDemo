@@ -10,6 +10,6 @@
 
 int main()
 {
-	showVideo("Videos/TestVideo.mp4");
+	showWebCam(0);
 }
 

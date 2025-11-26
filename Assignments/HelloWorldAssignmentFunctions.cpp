@@ -24,3 +24,21 @@ void showVideo(std::string path) {
 		cv::waitKey(32);
 	}
 }
+
+void showWebCam(int webCamId) {
+	cv::VideoCapture cap(webCamId);
+	cv::Mat frame;
+
+
+	while (1) {
+		cap.read(frame);
+
+		try { cv::imshow("Test webcam", frame); }
+		catch (cv::Exception& e) {
+			std::cout << "Error Occured: " << e.msg;
+			break;
+		}
+
+		cv::waitKey(1);
+	}
+}
