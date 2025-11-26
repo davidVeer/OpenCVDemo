@@ -136,6 +136,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Assignments\HelloWorldAssignmentFunctions.cpp" />
     <ClCompile Include="OpenCVDemo.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -144,6 +145,9 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="Images\test.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Assignments\Headers\HelloWorldAssignmentFunctions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
