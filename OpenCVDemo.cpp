@@ -10,6 +10,6 @@
 
 int main()
 {
-	showImage("Images/test.png");
+	showVideo("Videos/TestVideo.mp4");
 }
 

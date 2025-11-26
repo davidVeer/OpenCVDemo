@@ -8,3 +8,19 @@ void showImage(std::string path) {
 	cv::imshow("Test Image", image);
 	cv::waitKey(0);
 }
+
+void showVideo(std::string path) {
+	cv::VideoCapture cap(path);
+	cv::Mat frame;
+	while (1) {
+		cap.read(frame);
+
+		try { cv::imshow("Test video", frame); }
+			catch (cv::Exception &e){
+			std::cout << "Error Occured: " << e.msg;
+			break;
+		}
+		
+		cv::waitKey(32);
+	}
+}
