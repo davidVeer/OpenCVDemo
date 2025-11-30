@@ -5,17 +5,13 @@
 #endif
 
 #include <opencv2/opencv.hpp>
-#include "Assignments/Headers/ResizeAndRoiAssignmentFunctions.h"
-#include "Assignments/Headers/HelloWorldAssignmentFunctions.h"
+#include "Assignments/Headers/TekstAssignmentFunctions.h"
 
 
 
 int main()
 {
-	showImage("Recources/Images/Images1/basisfiguren.jpg");
-	ResizeImage("Recources/Images/Images1/basisfiguren.jpg", 1.5,0.5);
-	CropImage("Recources/Images/Images1/basisfiguren.jpg", 75, 130, 175, 125);
-
+	createCanvas(500, 0, 108, 170);
 	cv::waitKey(0);
 }
 

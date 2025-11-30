@@ -136,6 +136,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Assignments\TekstAssignmentFunctions.cpp" />
+    <ClCompile Include="Assignments\Headers\TekstAssignmentFunctions.h" />
     <ClCompile Include="Assignments\HelloWorldAssignmentFunctions.cpp" />
     <ClCompile Include="Assignments\ResizeAndRoiAssignmentFunctions.cpp" />
     <ClCompile Include="OpenCVDemo.cpp" />
