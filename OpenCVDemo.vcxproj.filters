@@ -21,6 +21,9 @@
     <ClCompile Include="Assignments\HelloWorldAssignmentFunctions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Assignments\ResizeAndRoiAssignmentFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="OpenCV.props" />
@@ -33,6 +36,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Assignments\Headers\HelloWorldAssignmentFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Assignments\Headers\ResizeAndRoiAssignmentFunctions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

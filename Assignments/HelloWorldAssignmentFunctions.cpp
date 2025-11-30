@@ -6,7 +6,6 @@
 void showImage(std::string path) {
 	cv::Mat image = cv::imread(path);
 	cv::imshow("Test Image", image);
-	cv::waitKey(0);
 }
 
 void showVideo(std::string path) {
